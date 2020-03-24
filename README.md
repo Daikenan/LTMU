@@ -15,8 +15,7 @@ that our tracker performs remarkably better than other competing algorithms.
 
 ## Paper link
 - [Google Drive](https://drive.google.com/open?id=1yt9dTifaS_CjzRW6GvdQ2yvA-KC50z7G)
-- [Baidu Yun](https://pan.baidu.com/s/1V0_5522WJmWJ94bU97qPRg 
-提取码：fpcm )
+- [Baidu Yun](https://pan.baidu.com/s/1V0_5522WJmWJ94bU97qPRg) 提取码：fpcm
 ## Citation
 Please cite the above publication if you use the code or compare with the ASRCF tracker in your work. Bibtex entry:
 ```
