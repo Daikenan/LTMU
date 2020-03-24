@@ -1,0 +1,6 @@
+@inproceedings{Dai_2020_CVPR,
+author = {Kenan Dai, Yunhua Zhang, Dong Wang, Jianhua Li, Huchuan Lu, Xiaoyun Yang},
+title = {{High-Performance Long-Term Tracking with Meta-Updater},
+booktitle = {CVPR},
+year = {2020}
+}
