@@ -3,7 +3,7 @@
 
 ## Introduction 
 Our Meta-updater can be easily embedded into other online update algorithms(Dimp, ATOM, ECO, RT-MDNet...) to make them more accurate and long-term online update. 
-## ZhiHu
+## 知乎
 - [link](https://zhuanlan.zhihu.com/p/130322874)
 ### Dimp
 | LaSOT            | Success Score    | Precision Score |
