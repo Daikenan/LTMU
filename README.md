@@ -3,7 +3,7 @@
 
 ## introduction 
 Our Meta-updater can be easily embedded into other online update algorithms(Dimp, ATOM, ECO, RT-MDNet...) to make them more accurate and long-term online update. 
-## Dimp+MU
+## Dimp
 | LaSOT            | Success Score    | Precision Score |
 |:-----------   |:----------------:|:----------------:|
 | Dimp50       | 0.568            |             |
@@ -13,6 +13,12 @@ Our Meta-updater can be easily embedded into other online update algorithms(Dimp
 |:-----------   |:----------------:|:----------------:|:----------------:|
 | Dimp50       | 0.5727            |    0.6225         |0.5302|
 | Dimp50+MU       | 0.6415            |     0.6871        |    0.6006|
+## RT-MDNet
+| LaSOT            | Success Score    | Precision Score |
+|:-----------   |:----------------:|:----------------:|
+| RT-MDNet       | 0.325            |  0.319           |
+| RT-MDNet+MU       | 0.366            |  0.353           |
+
 ## Paper link
 - [Google Drive](https://drive.google.com/open?id=14CGBaVl8sNIYRi0tQ5E_wsjpHiINu9Jk)
 - [Baidu Yun](https://pan.baidu.com/s/1jhPOdYoNRVD30Mr5okkv2g)   提取码：kexg
