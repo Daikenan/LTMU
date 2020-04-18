@@ -9,6 +9,10 @@ Our Meta-updater can be easily embedded into other online update algorithms(Dimp
 | Dimp50       | 0.568            |             |
 | Dimp50+MU       | 0.594            |             |
 
+| VOT2019 LT            | F    | TP | TR |
+|:-----------   |:----------------:|:----------------:|:----------------:|
+| Dimp50       | 0.5727            |    0.6225         |0.5302|
+| Dimp50+MU       | 0.6415            |     0.6871        |    0.6006|
 ## Paper link
 - [Google Drive](https://drive.google.com/open?id=14CGBaVl8sNIYRi0tQ5E_wsjpHiINu9Jk)
 - [Baidu Yun](https://pan.baidu.com/s/1jhPOdYoNRVD30Mr5okkv2g)   提取码：kexg
