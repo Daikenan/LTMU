@@ -1,9 +1,9 @@
 # LTMU
 - High-Performance Long-Term Tracking with Meta-Updater(**CVPR2020 Oral**).
 
-## introduction 
+## Introduction 
 Our Meta-updater can be easily embedded into other online update algorithms(Dimp, ATOM, ECO, RT-MDNet...) to make them more accurate and long-term online update. 
-## Dimp
+### Dimp
 | LaSOT            | Success Score    | Precision Score |
 |:-----------   |:----------------:|:----------------:|
 | Dimp50       | 0.568            |             |
@@ -13,7 +13,7 @@ Our Meta-updater can be easily embedded into other online update algorithms(Dimp
 |:-----------   |:----------------:|:----------------:|:----------------:|
 | Dimp50       | 0.5727            |    0.6225         |0.5302|
 | Dimp50+MU       | 0.6415            |     0.6871        |    0.6006|
-## RT-MDNet
+### RT-MDNet
 | LaSOT            | Success Score    | Precision Score |
 |:-----------   |:----------------:|:----------------:|
 | RT-MDNet       | 0.325            |  0.319           |
