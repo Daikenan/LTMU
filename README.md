@@ -7,24 +7,24 @@ Our Meta-updater can be easily embedded into other online update algorithms(Dimp
 | LaSOT            | Success Score    | Precision Score |
 |:-----------   |:----------------:|:----------------:|
 | Dimp50       | 0.568            |             |
-| Dimp50+MU       | 0.594            |             |
+| Dimp50+MU(k=1)       | 0.594            |             |
 
 | TLP            | Success Score    | Precision Score |
 |:-----------   |:----------------:|:----------------:|
 | Dimp50       | 0.514            |      0.522       |
-| Dimp50+MU       | 0.564            |      0.575       |
+| Dimp50+MU(k=1)       | 0.564            |      0.575       |
 
 | VOT2019 LT            | F    | TP | TR |
 |:-----------   |:----------------:|:----------------:|:----------------:|
 | Dimp50       | 0.5727            |    0.6225         |0.5302|
-| Dimp50+MU       | 0.6415            |     0.6871        |    0.6006|
+| Dimp50+MU(k=1)       | 0.6415            |     0.6871        |    0.6006|
 
 
 ### RT-MDNet
 | LaSOT            | Success Score    | Precision Score |
 |:-----------   |:----------------:|:----------------:|
 | RT-MDNet       | 0.325            |  0.319           |
-| RT-MDNet+MU       | 0.366            |  0.353           |
+| RT-MDNet+MU(k=2)       | 0.366            |  0.353           |
 ### ATOM
 Coming soon
 ### ECO
