@@ -41,11 +41,10 @@ Coming soon
 ## Citation
 Please cite the above publication if you use the code or compare with the ASRCF tracker in your work. Bibtex entry:
 ```
-@InProceedings{Dai_2019_CVPR,  
-  author = {Dai, Kenan and Wang, Dong and Lu, Huchuan and Sun, Chong and Li, Jianhua},  
-  title = {Visual Tracking via Adaptive Spatially-Regularized Correlation Filters},  	
-  booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},  	
-  month = {June},  
-  year = {2019}  
-}  
+@inproceedings{Dai_2020_CVPR,
+author = {Kenan Dai, Yunhua Zhang, Dong Wang, Jianhua Li, Huchuan Lu, Xiaoyun Yang},
+title = {{High-Performance Long-Term Tracking with Meta-Updater},
+booktitle = {CVPR},
+year = {2020}
+}
 ``` 
