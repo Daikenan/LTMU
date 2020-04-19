@@ -19,6 +19,10 @@ Our Meta-updater can be easily embedded into other online update algorithms(Dimp
 | Dimp50       | 0.5727            |    0.6225         |0.5302|
 | Dimp50+MU(k=1)       | 0.6415            |     0.6871        |    0.6006|
 
+| VOT2018 LT            | F    | TP | TR |
+|:-----------   |:----------------:|:----------------:|:----------------:|
+| Dimp50       | 0.5869            |    0.6356         |0.5452|
+| Dimp50+MU(k=1)       | 0.6493            |     0.6978        |    0.6072|
 
 ### RT-MDNet
 | LaSOT            | Success Score    | Precision Score |
