@@ -2,7 +2,7 @@
 - High-Performance Long-Term Tracking with Meta-Updater(**CVPR2020 Oral**).
 
 <div align="center">
-  <img src="https://github.com/Daikenan/LTMU/blob/master/framework.png" width="500px" />
+  <img src="https://github.com/Daikenan/LTMU/blob/master/framework.jpg" width="500px" />
 </div>
 
 ## Introduction 
