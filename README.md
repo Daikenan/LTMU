@@ -6,8 +6,8 @@ Our Meta-updater can be easily embedded into other online-update algorithms(Dimp
 ### Dimp
 | LaSOT            | Success Score    | Precision Score |
 |:-----------   |:----------------:|:----------------:|
-| Dimp50       | 0.568            |             |
-| Dimp50+MU(k=1)       | 0.594            |             |
+| Dimp50       | 0.568            |      -       |
+| Dimp50+MU(k=1)       | 0.594            |      -       |
 
 | TLP            | Success Score    | Precision Score |
 |:-----------   |:----------------:|:----------------:|
