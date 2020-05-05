@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ccad9088-2de4-4a9b-bfaa-c49a9c5ec6a3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/DiMP_LTMU/Global_Track/_init_paths.py" beforeDir="false" afterPath="$PROJECT_DIR$/DiMP_LTMU/Global_Track/_init_paths.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiMP_LTMU/Global_Track/_submodules/neuron/neuron/data/datasets/tlp.py" beforeDir="false" afterPath="$PROJECT_DIR$/DiMP_LTMU/Global_Track/_submodules/neuron/neuron/data/datasets/tlp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiMP_LTMU/Global_Track/_submodules/neuron/neuron/data/evaluators/otb_eval.py" beforeDir="false" afterPath="$PROJECT_DIR$/DiMP_LTMU/Global_Track/_submodules/neuron/neuron/data/evaluators/otb_eval.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiMP_LTMU/Global_Track/_submodules/neuron/neuron/models/trackers/tracker.py" beforeDir="false" afterPath="$PROJECT_DIR$/DiMP_LTMU/Global_Track/_submodules/neuron/neuron/models/trackers/tracker.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiMP_LTMU/Global_Track/imgs/figure2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiMP_LTMU/Global_Track/tools/test_global_track.py" beforeDir="false" afterPath="$PROJECT_DIR$/DiMP_LTMU/Global_Track/tools/test_global_track.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiMP_LTMU/Global_Track/trackers/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiMP_LTMU/Global_Track/trackers/global_track.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiMP_LTMU/SiamMask/experiments/siammask/custom.py" beforeDir="false" afterPath="$PROJECT_DIR$/DiMP_LTMU/SiamMask/experiments/siammask/custom.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiMP_LTMU/SiamMask/models/siammask.py" beforeDir="false" afterPath="$PROJECT_DIR$/DiMP_LTMU/SiamMask/models/siammask.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiMP_LTMU/SiamMask/tools/demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/DiMP_LTMU/SiamMask/tools/demo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiMP_LTMU/SiamMask/tools/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/DiMP_LTMU/SiamMask/tools/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiMP_LTMU/SiamMask/utils/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiMP_LTMU/SiamMask/utils/anchors.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiMP_LTMU/SiamMask/utils/bbox_helper.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiMP_LTMU/SiamMask/utils/benchmark_helper.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiMP_LTMU/SiamMask/utils/config_helper.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiMP_LTMU/SiamMask/utils/load_helper.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiMP_LTMU/SiamMask/utils/log_helper.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiMP_LTMU/SiamMask/utils/pysot/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiMP_LTMU/SiamMask/utils/pysot/datasets/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiMP_LTMU/SiamMask/utils/pysot/datasets/dataset.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiMP_LTMU/SiamMask/utils/pysot/datasets/video.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiMP_LTMU/SiamMask/utils/pysot/datasets/vot.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiMP_LTMU/SiamMask/utils/pysot/evaluation/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiMP_LTMU/SiamMask/utils/pysot/evaluation/ar_benchmark.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiMP_LTMU/SiamMask/utils/pysot/evaluation/eao_benchmark.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiMP_LTMU/SiamMask/utils/pysot/utils/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiMP_LTMU/SiamMask/utils/pysot/utils/c_region.pxd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiMP_LTMU/SiamMask/utils/pysot/utils/misc.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiMP_LTMU/SiamMask/utils/pysot/utils/region.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiMP_LTMU/SiamMask/utils/pysot/utils/region.pyx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiMP_LTMU/SiamMask/utils/pysot/utils/setup.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiMP_LTMU/SiamMask/utils/pysot/utils/src/buffer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiMP_LTMU/SiamMask/utils/pysot/utils/src/region.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiMP_LTMU/SiamMask/utils/pysot/utils/src/region.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiMP_LTMU/SiamMask/utils/pysot/utils/statistics.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiMP_LTMU/SiamMask/utils/pyvotkit/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiMP_LTMU/SiamMask/utils/pyvotkit/c_region.pxd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiMP_LTMU/SiamMask/utils/pyvotkit/region.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiMP_LTMU/SiamMask/utils/pyvotkit/region.pyx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiMP_LTMU/SiamMask/utils/pyvotkit/setup.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiMP_LTMU/SiamMask/utils/pyvotkit/src/buffer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiMP_LTMU/SiamMask/utils/pyvotkit/src/region.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiMP_LTMU/SiamMask/utils/pyvotkit/src/region.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiMP_LTMU/SiamMask/utils/tracker_config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiMP_LTMU/pyMDNet/models/mdnet_imagenet_vid.pth" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiMP_LTMU/pyMDNet/models/mdnet_vot-otb.pth" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiMP_LTMU/pyMDNet/tracking/bbreg.py" beforeDir="false" afterPath="$PROJECT_DIR$/DiMP_LTMU/pyMDNet/tracking/bbreg.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiMP_LTMU/pyMDNet/tracking/data_prov.py" beforeDir="false" afterPath="$PROJECT_DIR$/DiMP_LTMU/pyMDNet/tracking/data_prov.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiMP_LTMU/pyMDNet/tracking/run_tracker.py" beforeDir="false" afterPath="$PROJECT_DIR$/DiMP_LTMU/pyMDNet/tracking/run_tracker.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/LTMU_B$test_tracker.coverage" NAME="test_tracker Coverage Results" MODIFIED="1588696121760" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DiMP_MU" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DiMP_MU/test_tracker.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DiMP_MU/Dimp_MU.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="205">
+              <caret line="68" selection-start-line="68" selection-end-line="68" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/DiMP_MU/run_tracker.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/DiMP_LTMU/Global_Track" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/DiMP_MU/run_tracker.py" />
+        <option value="$PROJECT_DIR$/DiMP_MU/test_tracker.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="65" />
+    <option name="y" value="-4" />
+    <option name="width" value="1855" />
+    <option name="height" value="1084" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="LTMU_B" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LTMU_B" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LTMU_B" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LTMU_B" type="462c0819:PsiDirectoryNode" />
+              <item name="DiMP_LTMU" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LTMU_B" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LTMU_B" type="462c0819:PsiDirectoryNode" />
+              <item name="DiMP_MU" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="test_tracker" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LTMU_B" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/anaconda3/envs/dimp/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DiMP_MU" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DiMP_MU/test_tracker.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.test_tracker" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ccad9088-2de4-4a9b-bfaa-c49a9c5ec6a3" name="Default Changelist" comment="" />
+      <created>1588694646956</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588694646956</updated>
+      <workItem from="1588694648765" duration="678000" />
+      <workItem from="1588695591736" duration="488000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1166000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25262576" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3291536" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/DiMP_MU/meta_updater/test/checkpoint" />
+    <entry file="file://$PROJECT_DIR$/DiMP_MU/test_tracker.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DiMP_MU/Dimp_MU.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="68" selection-start-line="68" selection-end-line="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DiMP_MU/run_tracker.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
