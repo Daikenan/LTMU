@@ -69,7 +69,7 @@ six==1.14.0
 sklearn==0.0
 tb-nightly==2.2.0a20200205
 tensorboard==1.15.0
-tensorflow==1.15.0
+tensorflow==1.15.2
 tensorflow-estimator==1.15.1
 termcolor==1.1.0
 terminaltables==3.1.0
