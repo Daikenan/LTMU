@@ -16,9 +16,12 @@ To install all the dependencies, you can run:
 `
 source create -n DiMP_MU python=3.7
 `
+`
 source activate DiMP_MU
 `
+`
 cd path/to/DiMP_MU
+`
 `
 pip install -r requirements.txt
 `
