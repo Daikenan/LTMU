@@ -1,0 +1,113 @@
+# common parameters
+experiment: SiamFC_baseline
+work_dir: 'work_dirs'
+log_level: DEBUG
+train_echo: [loss]
+val_echo: [loss]
+use_gpu: &use_gpu true
+num_workers: &num_workers 48
+max_epochs: 50
+start_epoch: 0
+save_frequency: 1
+val_frequency: 5
+exemplar_sz: &exemplar_sz 127
+instance_sz: &instance_sz 255
+context: &context 0.5
+out_stride: &out_stride 8
+
+model:
+  type: TrackerSiamFC
+  backbone:
+    type: AlexNetV1
+    out_layers: 'conv5'
+  head:
+    type: XCorr
+    scale: 0.001
+    learnable: false
+  cfg:
+    exemplar_sz: *exemplar_sz
+    instance_sz: *instance_sz
+    context: *context
+    scale_num: 3
+    scale_step: 1.0375
+    scale_lr: 0.59
+    scale_penalty: 0.9745
+    window_influence: 0.176
+    response_sz: 17
+    response_up: 16
+    out_stride: *out_stride
+
+loss:
+  type: BalancedBCELoss
+  neg_weight: 1.0
+
+optimizer:
+  type: torch.SGD
+  lr: 1.e-2
+  weight_decay: 5.e-4
+  momentum: 0.9
+
+lr_scheduler:
+  type: torch.ExponentialLR
+  gamma: 0.871
+
+train_data:
+  type: torch.DataLoader
+  dataset:
+    type: Seq2Pair
+    seqs:
+      type: GOT10k
+      subset: 'train'
+    transforms:
+      type: SiamFC_Transforms
+      exemplar_sz: *exemplar_sz
+      instance_sz: *instance_sz
+      context: *context
+      shift: 8
+      out_stride: *out_stride
+      response_sz: 15
+      r_pos: 16
+      r_neg: 0
+    pairs_per_seq: 1
+    max_distance: 100
+  batch_size: 8
+  shuffle: true
+  num_workers: *num_workers
+  pin_memory: *use_gpu
+  drop_last: true
+
+val_data:
+  type: torch.DataLoader
+  dataset:
+    type: Seq2Pair
+    seqs:
+      type: GOT10k
+      subset: 'val'
+    transforms:
+      type: SiamFC_Transforms
+      exemplar_sz: *exemplar_sz
+      instance_sz: *instance_sz
+      context: *context
+      shift: 8
+      out_stride: *out_stride
+      response_sz: 15
+      r_pos: 16
+      r_neg: 0
+    pairs_per_seq: 1
+    max_distance: 100
+  batch_size: 8
+  shuffle: false
+  num_workers: *num_workers
+  pin_memory: *use_gpu
+  drop_last: false
+
+test_data:
+  type: OTB
+  version: 2015
+
+evaluator:
+  type: OTB_Eval
+  nbins_iou: 101
+  nbins_ce: 51
+  visualize: false
+  plot_curves: false

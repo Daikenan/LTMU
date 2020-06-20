@@ -1,0 +1,2 @@
+include neuron/data/datasets/uav123.json
+include neuron/data/datasets/lasot.json

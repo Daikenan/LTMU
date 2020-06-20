@@ -1,0 +1,111 @@
+# common parameters
+experiment: ReID_baseline
+work_dir: work_dirs
+log_level: DEBUG
+train_echo: [loss, top1, top5, cmc_1, cmc_5]
+val_echo: [loss]
+use_gpu: &use_gpu true
+num_workers: &num_workers 48
+max_epochs: 120
+start_epoch: 0
+save_frequency: 1
+val_frequency: 5
+num_seqs: &num_seqs 9335
+num_train: &num_train 5000
+num_val: &num_val 4335
+base_dataset: &base_dataset
+  type: GOT10k
+  subset: train
+
+model:
+  type: ReID_Baseline
+  backbone:
+    type: resnet50
+    pretrained: true
+    last_stride: 1
+  num_classes: *num_train
+
+loss:
+  type: ReID_Loss
+  loss_cls:
+    type: python.dict
+    loss:
+      type: LabelSmoothLoss
+      num_classes: *num_train
+      eps: 0.1
+      calc_metrics: true
+    weight: 1.
+  loss_rank:
+    type: python.dict
+    loss:
+      type: TripletLoss
+      margin: 0.3
+      normalize_feats: true
+      calc_metrics: true
+    weight: 1.
+
+param_grouper:
+  type: ParamGrouper
+  lr: 0.00035
+  weight_decay: 0.0005
+  special_lrs:
+    bias: 0.00035
+  special_wds:
+    bias: 0.0005
+
+optimizer:
+  type: torch.Adam
+  lr: 0.00035
+  weight_decay: 0.0005
+
+lr_scheduler:
+  type: WarmupMultiStepLR
+  steps: [40, 70]
+  gamma: 0.1
+  warmup_factor: 0.01
+  warmup_iters: 10
+  warmup_method: linear
+
+train_data:
+  type: torch.DataLoader
+  dataset:
+    type: Seq2Instance
+    seqs:
+      type: Slice
+      dataset: *base_dataset
+      start: 0
+      stop: *num_train
+    transforms:
+      type: ReID_Transforms
+      train: true
+    sampling_stride: 2
+  sampler:
+    type: RandomIdentitySampler
+    num_identities: 16
+    num_instances: 4
+  batch_size: 64
+  num_workers: *num_workers
+  pin_memory: *use_gpu
+  drop_last: true
+
+val_data:
+  type: torch.DataLoader
+  dataset:
+    type: Seq2Instance
+    seqs:
+      type: Slice
+      dataset: *base_dataset
+      start: *num_train
+      stop: *num_seqs
+    transforms:
+      type: ReID_Transforms
+      train: false
+    sampling_stride: 30
+  sampler:
+    type: RandomIdentitySampler
+    num_identities: 16
+    num_instances: 4
+  batch_size: 64
+  num_workers: *num_workers
+  pin_memory: *use_gpu
+  drop_last: false
