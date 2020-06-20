@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ccad9088-2de4-4a9b-bfaa-c49a9c5ec6a3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiMP_LTMU/Global_Track" beforeDir="false" afterPath="$PROJECT_DIR$/DiMP_LTMU/Global_Track" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DiMP_LTMU/Global_Track/_init_paths.py" beforeDir="false" afterPath="$PROJECT_DIR$/DiMP_LTMU/Global_Track/_init_paths.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DiMP_LTMU/Global_Track/_submodules/neuron/neuron/data/datasets/tlp.py" beforeDir="false" afterPath="$PROJECT_DIR$/DiMP_LTMU/Global_Track/_submodules/neuron/neuron/data/datasets/tlp.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DiMP_LTMU/Global_Track/_submodules/neuron/neuron/data/evaluators/otb_eval.py" beforeDir="false" afterPath="$PROJECT_DIR$/DiMP_LTMU/Global_Track/_submodules/neuron/neuron/data/evaluators/otb_eval.py" afterDir="false" />
@@ -10,6 +13,7 @@
       <change beforePath="$PROJECT_DIR$/DiMP_LTMU/Global_Track/tools/test_global_track.py" beforeDir="false" afterPath="$PROJECT_DIR$/DiMP_LTMU/Global_Track/tools/test_global_track.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DiMP_LTMU/Global_Track/trackers/__init__.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/DiMP_LTMU/Global_Track/trackers/global_track.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiMP_LTMU/SiamMask" beforeDir="false" afterPath="$PROJECT_DIR$/DiMP_LTMU/SiamMask" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DiMP_LTMU/SiamMask/experiments/siammask/custom.py" beforeDir="false" afterPath="$PROJECT_DIR$/DiMP_LTMU/SiamMask/experiments/siammask/custom.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DiMP_LTMU/SiamMask/models/siammask.py" beforeDir="false" afterPath="$PROJECT_DIR$/DiMP_LTMU/SiamMask/models/siammask.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DiMP_LTMU/SiamMask/tools/demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/DiMP_LTMU/SiamMask/tools/demo.py" afterDir="false" />
@@ -48,6 +52,7 @@
       <change beforePath="$PROJECT_DIR$/DiMP_LTMU/SiamMask/utils/pyvotkit/src/region.c" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/DiMP_LTMU/SiamMask/utils/pyvotkit/src/region.h" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/DiMP_LTMU/SiamMask/utils/tracker_config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiMP_LTMU/pyMDNet" beforeDir="false" afterPath="$PROJECT_DIR$/DiMP_LTMU/pyMDNet" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DiMP_LTMU/pyMDNet/models/mdnet_imagenet_vid.pth" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/DiMP_LTMU/pyMDNet/models/mdnet_vot-otb.pth" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/DiMP_LTMU/pyMDNet/tracking/bbreg.py" beforeDir="false" afterPath="$PROJECT_DIR$/DiMP_LTMU/pyMDNet/tracking/bbreg.py" afterDir="false" />
@@ -61,15 +66,41 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/LTMU_B$test_tracker.coverage" NAME="test_tracker Coverage Results" MODIFIED="1588696121760" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DiMP_MU" />
+    <SUITE FILE_PATH="coverage/LTMU$Refine_module_bcm_complete.coverage" NAME="Refine_module_bcm_complete Coverage Results" MODIFIED="1588441289904" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DiMP_LTMU/Bbox_refine/pytracking" />
+    <SUITE FILE_PATH="coverage/LTMU$Dimp_MU.coverage" NAME="Dimp_MU Coverage Results" MODIFIED="1587372466151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DiMP_MU" />
+    <SUITE FILE_PATH="coverage/LTMU$run_Dimp_MU.coverage" NAME="run_Dimp_MU Coverage Results" MODIFIED="1587738901376" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DiMP_MU" />
+    <SUITE FILE_PATH="coverage/LTMU$test_tracker__1_.coverage" NAME="test_tracker (1) Coverage Results" MODIFIED="1588185419288" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DiMP_LTMU" />
+    <SUITE FILE_PATH="coverage/LTMU$run_tracker.coverage" NAME="run_tracker Coverage Results" MODIFIED="1587750110512" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DiMP_MU" />
+    <SUITE FILE_PATH="coverage/LTMU$test_global_track.coverage" NAME="test_global_track Coverage Results" MODIFIED="1588184266740" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DiMP_LTMU/GlobalTrack" />
+    <SUITE FILE_PATH="coverage/LTMU$tracker_vot.coverage" NAME="tracker_vot Coverage Results" MODIFIED="1588356873969" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DiMP_LTMU" />
+    <SUITE FILE_PATH="coverage/LTMU$demo.coverage" NAME="demo Coverage Results" MODIFIED="1592410179047" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DiMP_MU" />
+    <SUITE FILE_PATH="coverage/LTMU$VOT_LT2.coverage" NAME="VOT_LT2 Coverage Results" MODIFIED="1589044435327" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DiMP_LTMU" />
+    <SUITE FILE_PATH="coverage/LTMU$get_results.coverage" NAME="get_results Coverage Results" MODIFIED="1589214190642" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DiMP_MU" />
+    <SUITE FILE_PATH="coverage/LTMU$run_Dimp_MU2.coverage" NAME="run_Dimp_MU2 Coverage Results" MODIFIED="1587667967606" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DiMP_MU" />
+    <SUITE FILE_PATH="coverage/LTMU$test_tracker2.coverage" NAME="test_tracker2 Coverage Results" MODIFIED="1588186033755" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DiMP_MU" />
+    <SUITE FILE_PATH="coverage/LTMU$VOT_LT.coverage" NAME="VOT_LT Coverage Results" MODIFIED="1588700243989" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DiMP_LTMU" />
+    <SUITE FILE_PATH="coverage/LTMU$test_tracker.coverage" NAME="test_tracker Coverage Results" MODIFIED="1588693248652" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DiMP_MU" />
+    <SUITE FILE_PATH="coverage/LTMU$train_lstm.coverage" NAME="train_lstm Coverage Results" MODIFIED="1587753472135" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DiMP_MU/meta_updater" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DiMP_MU/test_tracker.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="153">
+              <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/DiMP_MU/demo.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -78,19 +109,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DiMP_MU/Dimp_MU.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="68" selection-start-line="68" selection-end-line="68" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/DiMP_MU/run_tracker.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+            <state relative-caret-position="385">
+              <caret line="185" column="62" selection-start-line="185" selection-start-column="62" selection-end-line="185" selection-end-column="62" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -100,18 +122,26 @@
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/DiMP_LTMU/Global_Track" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/DiMP_MU/run_tracker.py" />
         <option value="$PROJECT_DIR$/DiMP_MU/test_tracker.py" />
+        <option value="$PROJECT_DIR$/DiMP_MU/demo.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="65" />
     <option name="y" value="-4" />
     <option name="width" value="1855" />
@@ -127,18 +157,26 @@
         <subPane>
           <expand>
             <path>
-              <item name="LTMU_B" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LTMU_B" type="462c0819:PsiDirectoryNode" />
+              <item name="LTMU" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LTMU" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="LTMU_B" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LTMU_B" type="462c0819:PsiDirectoryNode" />
-              <item name="DiMP_LTMU" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LTMU_B" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LTMU_B" type="462c0819:PsiDirectoryNode" />
+              <item name="LTMU" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LTMU" type="462c0819:PsiDirectoryNode" />
               <item name="DiMP_MU" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LTMU" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LTMU" type="462c0819:PsiDirectoryNode" />
+              <item name="DiMP_MU" type="462c0819:PsiDirectoryNode" />
+              <item name="meta_updater" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LTMU" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LTMU" type="462c0819:PsiDirectoryNode" />
+              <item name="DiMP_MU" type="462c0819:PsiDirectoryNode" />
+              <item name="meta_updater" type="462c0819:PsiDirectoryNode" />
+              <item name="venv" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -166,7 +204,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.demo">
+    <configuration name="demo" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LTMU_B" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/anaconda3/envs/dimp/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DiMP_MU" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DiMP_MU/demo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="test_tracker" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LTMU_B" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -189,8 +249,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Python.demo" />
+      <item itemvalue="Python.test_tracker" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.demo" />
         <item itemvalue="Python.test_tracker" />
       </list>
     </recent_temporary>
@@ -207,22 +272,24 @@
       <updated>1588694646956</updated>
       <workItem from="1588694648765" duration="678000" />
       <workItem from="1588695591736" duration="488000" />
+      <workItem from="1592380564975" duration="2036000" />
+      <workItem from="1592409594353" duration="2525000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1166000" />
+    <option name="totallyTimeSpent" value="5767000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
+    <frame x="65" y="-4" width="1855" height="1084" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25262576" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26091763" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3291536" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33019853" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -245,27 +312,59 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/DiMP_MU/meta_updater/test/checkpoint" />
-    <entry file="file://$PROJECT_DIR$/DiMP_MU/test_tracker.py">
+    <entry file="file://$PROJECT_DIR$/LTMU_bibtex">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DiMP_MU/meta_updater/tcNet.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        <state>
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DiMP_MU/meta_updater/tcopt.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DiMP_MU/Dimp_MU.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="7" column="52" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DiMP_MU/run_tracker.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="185" column="62" selection-start-line="185" selection-start-column="62" selection-end-line="185" selection-end-column="62" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DiMP_MU/Dimp_MU.py">
+    <entry file="file://$PROJECT_DIR$/DiMP_MU/test_tracker.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="68" selection-start-line="68" selection-end-line="68" />
+        <state relative-caret-position="153">
+          <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DiMP_MU/run_tracker.py">
+    <entry file="file://$PROJECT_DIR$/DiMP_MU/demo.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
-          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+          <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
