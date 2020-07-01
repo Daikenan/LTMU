@@ -92,7 +92,9 @@ title = {{High-Performance Long-Term Tracking with Meta-Updater},
 booktitle = {CVPR},
 year = {2020}
 }
-[5]@inproceedings{GlobalTrack,
+```
+[5]
+```@inproceedings{GlobalTrack,
   author    = {Lianghua Huang and Xin Zhao and Kaiqi Huang},
   title        = {{GlobalTrack: A} Simple and Strong Baseline for Long-term Tracking},
   booktitle = {AAAI},
