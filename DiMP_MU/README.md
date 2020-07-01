@@ -30,7 +30,7 @@ cd path/to/DiMP_MU
 pip install -r requirements.txt
 ```
 4.Download models
-Download models[(https://drive.google.com/open?id=1o-btxlWWA6GlbwMGCGkzn2vAw9qv8D2z)] and put in the following path:
+Download [models](https://drive.google.com/open?id=1o-btxlWWA6GlbwMGCGkzn2vAw9qv8D2z) and put in the following path:
 
 ```
  utils/metric_net/metric_model/metric_model.pt
