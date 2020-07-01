@@ -59,7 +59,7 @@ from tools.test import *
 class p_config(object):
     Verification = "rtmdnet"
     name = 'Dimp_MU'
-    model_dir = 'checkpoint'
+    model_dir = 'dimp_mu_votlt'
     checkpoint = 220000
     start_frame = 200
     R_candidates = 20

@@ -2,13 +2,13 @@ import cv2
 import numpy as np
 
 
-def show_res(im, box, win_name,update=None,score=None,frame_id=None,mask=None,score_max=None, groundtruth=None, can_bboxes=None):
+def show_res(im, box, win_name,update=None,tracker_score=None,frame_id=None,mask=None,v_score=None, groundtruth=None, can_bboxes=None):
     cv2.namedWindow(win_name,cv2.WINDOW_NORMAL)
     cv2.rectangle(im, (box[1], box[0]),
                   (box[3], box[2]), [0, 255, 255], 2)
 
     if mask is not None:
-        im[:, :, 1] = (mask > 0) * 255 + (mask == 0) * im[:, :, 1]
+        im[:, :, 1] = (mask > 0) * 128 + (mask == 0) * im[:, :, 1]
     if can_bboxes is not None:
         can_bboxes = np.array(can_bboxes, dtype=np.int32)
         for i in range(len(can_bboxes)):
@@ -20,13 +20,13 @@ def show_res(im, box, win_name,update=None,score=None,frame_id=None,mask=None,sc
                       (groundtruth[frame_id][0] + groundtruth[frame_id][2],
                        groundtruth[frame_id][1] + groundtruth[frame_id][3]), [0, 0, 255], 2)
     if update is not None:
-        cv2.putText(im, str(update), (20, 40), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 255), 1)
-    if score_max is not None:
-        cv2.putText(im, str(score_max), (20, 80), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 255), 1)
-    if score is not None:
-        cv2.putText(im, str(score), (20, 60), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 255), 1)
+        cv2.putText(im, 'update score:'+str(update), (20, 50), cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 0, 255), 1)
+    if v_score is not None:
+        cv2.putText(im, str(v_score), (20, 110), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 255), 1)
+    if tracker_score is not None:
+        cv2.putText(im, 'tracker score:'+str(tracker_score), (20, 80), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 255), 1)
     if frame_id is not None:
-        cv2.putText(im, str(frame_id), (20, 20), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 255), 1)
+        cv2.putText(im, 'frame:'+str(frame_id), (20, 20), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 255), 1)
     cv2.imshow(win_name, im)
     cv2.waitKey(1)
 

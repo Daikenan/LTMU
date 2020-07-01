@@ -16,12 +16,12 @@ from tracking_utils import Region
 class p_config(object):
     Verification = "rtmdnet"
     name = 'Dimp_MU'
-    model_dir = 'test3'
-    checkpoint = None
-    start_frame = 20
+    model_dir = 'dimp_mu_votlt'
+    checkpoint = 220000
+    start_frame = 200
     R_candidates = 20
     save_results = True
-    use_mask = None
+    use_mask = True
     save_training_data = False
     visualization = True
 
@@ -56,6 +56,8 @@ def get_seq_list(Dataset, mode=None, classes=None, video=None):
         data_dir = tlp_dir
     elif Dataset == "lasot":
         data_dir = os.path.join(lasot_dir, classes)
+    elif Dataset == 'demo':
+        data_dir = '../demo_sequences'
 
     sequence_list = os.listdir(data_dir)
     sequence_list.sort()
@@ -77,7 +79,7 @@ def get_seq_list(Dataset, mode=None, classes=None, video=None):
 
 
 def get_groundtruth(Dataset, data_dir, video):
-    if Dataset == "votlt" or Dataset == "votlt19":
+    if Dataset == "votlt" or Dataset == "votlt19" or Dataset == "demo":
         sequence_dir = data_dir + '/' + video + '/color/'
         gt_dir = data_dir + '/' + video + '/groundtruth.txt'
     elif Dataset == "otb":
@@ -180,7 +182,7 @@ def eval_tracking(Dataset, p, mode=None, video=None):
         for c in classes:
             sequence_list, data_dir = get_seq_list(Dataset, mode=mode, classes=c)
             run_seq_list(Dataset, p, sequence_list, data_dir)
-    elif Dataset in ['votlt18', 'votlt19', 'tlp', 'otb']:
+    elif Dataset in ['votlt18', 'votlt19', 'tlp', 'otb', 'demo']:
         sequence_list, data_dir = get_seq_list(Dataset, video=video)
         run_seq_list(Dataset, p, sequence_list, data_dir)
     else:
