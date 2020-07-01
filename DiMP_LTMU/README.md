@@ -4,9 +4,12 @@ If you failed to install and run this tracker, please email me (<dkn2014@mail.dl
 # Introduction
 
 The proposed algorithm consists of four modules, e.g. local tracker, verifier, global detector and meta-updater. The presence of the target is judged by the outputs from both the local tracker and the verifier. When disappearance is detected, the tracker triggers the global detector to conduct image-level detection and obtain candidate proposals. If the verifier finds the target among the proposals, then the local tracker will be reset based on the current tracking result. The update of the local tracker is controlled by the meta-updater.
+
 The short-term local tracker contains two components. One is for target localization and based on DiMP algorithm[1]. It uses ResNet50 as the backbone network. The input of it is the local search region and it outputs a single response map, in which the center of the target has the highest response. The other component is the SiamMask network[2] and used for refining the bounding box after locating the center of the target. It also takes the local search region as the input and outputs the tight bounding boxes of candidate proposals. 
+
 For the verifier, we adopts MDNet network[3] which uses VGGM as the backbone and is pre-trained on ILSVRC VID dataset. The input of it is the local search region as well and in each frame, we crop the feature of the search region outputted by the third convolutional layer to get the feature of the tracking result. The classification score is finally obtained by sending the tracking result's feature to three fully connected layers.
 Meta_Updater[4] composed of LSTMs that takes historical bounding box data, appearance cues and discriminative features into account towards deciding whether or not the model should be updated. It takes historical bounding box ,tracker scores, response map and image as the input and outs a binary classification, whether the current frame should be updated. 
+
 We utilize GlobalTrack[5] as the global detector, which is a one-shot detection algorithm and can search the candidates in the whole image.
 
 This method is a simplified version of LTMU and LTDSE with comparable performance, which additionally has a RPN-based regression network, a sliding-window based re-detection module and a complex mechanism for updating models and target re-localization.
@@ -55,6 +58,7 @@ source activate DiMP_LTMU
 python Demo.py
 ```
 # Citation
+```
 [1]@inproceedings{Danelljan-ICCV19-DIMP,
   author    = {Goutam Bhat and
                      Martin Danelljan and
@@ -92,3 +96,4 @@ year = {2020}
   booktitle = {AAAI},
   year        = {2020},
 }
+```
