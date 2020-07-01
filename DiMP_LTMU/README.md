@@ -44,6 +44,8 @@ You can also download models manually and put in the following path:
 5. modify ``vot_path.py``:
 6. Run the demo script to test the tracker:
 ```
+cd path/to/DiMP_LTMU
+source activate DiMP_LTMU
 python Demo.py
 ```
 
