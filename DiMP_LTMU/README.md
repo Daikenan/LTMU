@@ -11,24 +11,39 @@ This is a python-implemented visual object tracking algorithm.
 * ubuntu 16.04
 * cuda-10.0
 
-## Install Requirements & 
-To install all the dependencies, you can run:
-``
-source create -n LTMU_B python=3.7
-source activate LTMU_B
+# Installation
+1. Clone the GIT repository:
+```
+ $ git clone https://github.com/Daikenan/LTMU.git
+```
+2. Clone the submodules.  
+   In the repository directory, run the commands:
+```
+   $ git submodule init  
+   $ git submodule update
+```
+3. Run the install script. 
+```
 cd path/to/DiMP_LTMU
+source create -n DiMP_LTMU python=3.7
+source activate DiMP_LTMU
 pip install -r requirements.txt
-`` 
-## Download models and put in the following path
-https://drive.google.com/open?id=1_IOhsY4SJPQvEhbPP1sttGHpn81vfjIW
-
+bash compile.sh
+```
+4.Download models
+```
+bash download_models.sh
+```
+You can also download models manually and put in the following path:
+```
 `DiMP_LTMU/Global_Track/checkpoints/qg_rcnn_r50_fpn_coco_got10k_lasot.pth`
 `DiMP_LTMU/pyMDNet/models/mdnet_imagenet_vid.pth`
  `utils/metric_net/metric_model/metric_model.pt`
 `DiMP_LTMU/SiamMask/experiments/siammask/SiamMask_VOT_LD.pth`
-
-compile the Cpp/CUDA extensions by running `python setup.py develop` under `DiMP_LTMU/Global_Track/_submodules/mmdetection`.
-
-## Modify the Paths
-* `vot_path.py`
+```
+5. modify ``vot_path.py``:
+6. Run the demo script to test the tracker:
+```
+python Demo.py
+```
 
