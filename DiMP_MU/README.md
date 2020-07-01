@@ -30,10 +30,11 @@ cd path/to/DiMP_MU
 pip install -r requirements.txt
 ```
 4.Download models
-## Download models and put in the following path
+Download models and put in the following path
 https://drive.google.com/open?id=1o-btxlWWA6GlbwMGCGkzn2vAw9qv8D2z
-
- `utils/metric_net/metric_model/metric_model.pt`
+```
+ utils/metric_net/metric_model/metric_model.pt
+ ```
 5. Run the demo script to test the tracker:
 ```
 cd path/to/DiMP_MU
