@@ -57,6 +57,8 @@ cd path/to/DiMP_LTMU
 source activate DiMP_LTMU
 python Demo.py
 ```
+# Performance
+update soon
 # Citation
 ```
 [1]@inproceedings{Danelljan-ICCV19-DIMP,
