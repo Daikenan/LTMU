@@ -36,10 +36,10 @@ bash download_models.sh
 ```
 You can also download models manually and put in the following path:
 ```
-`DiMP_LTMU/Global_Track/checkpoints/qg_rcnn_r50_fpn_coco_got10k_lasot.pth`
-`DiMP_LTMU/pyMDNet/models/mdnet_imagenet_vid.pth`
- `utils/metric_net/metric_model/metric_model.pt`
-`DiMP_LTMU/SiamMask/experiments/siammask/SiamMask_VOT_LD.pth`
+DiMP_LTMU/Global_Track/checkpoints/qg_rcnn_r50_fpn_coco_got10k_lasot.pth
+DiMP_LTMU/pyMDNet/models/mdnet_imagenet_vid.pth
+ utils/metric_net/metric_model/metric_model.pt
+DiMP_LTMU/SiamMask/experiments/siammask/SiamMask_VOT_LD.pth
 ```
 5. modify ``vot_path.py``:
 6. Run the demo script to test the tracker:
