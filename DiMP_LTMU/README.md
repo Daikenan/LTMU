@@ -43,7 +43,7 @@ bash compile.sh
 ```
 bash download_models.sh
 ```
-You can also download models manually and put in the following path:
+You can also download [models](https://drive.google.com/open?id=1_IOhsY4SJPQvEhbPP1sttGHpn81vfjIW) manually and put in the following path:
 ```
 DiMP_LTMU/Global_Track/checkpoints/qg_rcnn_r50_fpn_coco_got10k_lasot.pth
 DiMP_LTMU/pyMDNet/models/mdnet_imagenet_vid.pth
