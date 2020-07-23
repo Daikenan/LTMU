@@ -9,7 +9,7 @@ This is a python-implemented visual object tracking algorithm.Use meta-updater t
 
 * python 3.7
 * ubuntu 16.04
-* cuda-10.0 && cuda-9.0
+* cuda-10.0 
 
 # Installation
 1. Clone the GIT repository:
