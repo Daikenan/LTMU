@@ -1,5 +1,5 @@
 # LTMU
-- High-Performance Long-Term Tracking with Meta-Updater(**CVPR2020 Oral**).
+- High-Performance Long-Term Tracking with Meta-Updater(**CVPR2020 Oral && Best Paper Nomination**).
 
 ![LTMU figure](framework.jpg)
 
