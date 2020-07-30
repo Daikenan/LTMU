@@ -32,7 +32,15 @@ Our Meta-updater can be easily embedded into other online-update algorithms(Dimp
 | RT-MDNet       | 0.325            |  0.319           |
 | RT-MDNet+MU(k=2)       | 0.366            |  0.353           |
 ### [ATOM](https://github.com/visionml/pytracking)
-Coming soon
+| LaSOT            | Success Score    | Precision Score |
+|:-----------   |:----------------:|:----------------:|
+| ATOM       | 0.501           |      -       |
+| ATOMMU(k=1)       | 0.531            |      -       |
+
+| TLP            | Success Score    | Precision Score |
+|:-----------   |:----------------:|:----------------:|
+| ATOM       | 0.399            |      0.399       |
+| ATOM+MU(k=1)       | 0.473            |      0.481       |
 ### [ECO](https://github.com/visionml/pytracking)
 Coming soon
 ### [MDNet](https://github.com/hyeonseobnam/py-MDNet)
