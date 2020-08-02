@@ -47,7 +47,7 @@ You can also download models([[Google drive](https://drive.google.com/open?id=1_
 ```
 DiMP_LTMU/Global_Track/checkpoints/qg_rcnn_r50_fpn_coco_got10k_lasot.pth
 DiMP_LTMU/pyMDNet/models/mdnet_imagenet_vid.pth
- utils/metric_net/metric_model/metric_model.pt
+utils/metric_net/metric_model/metric_model.pt
 DiMP_LTMU/SiamMask/experiments/siammask/SiamMask_VOT_LD.pth
 ```
 5. modify ``vot_path.py``:
