@@ -42,9 +42,3 @@ cd path/to/DiMP_MU
 source activate DiMP_MU
 python Demo.py
 ```
-<<<<<<< HEAD
-
-=======
->>>>>>> 39ec09e14eb2ad96b4356830fd6108b70a808f6c
-
-
