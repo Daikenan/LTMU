@@ -30,7 +30,7 @@ cd path/to/DiMP_MU
 pip install -r requirements.txt
 ```
 4.Download models
-Download [metric model](https://drive.google.com/open?id=1o-btxlWWA6GlbwMGCGkzn2vAw9qv8D2z) [ATOM model](https://drive.google.com/open?id=1VNyr-Ds0khjM0zaq6lU-xfY74-iWxBvU) and put in the following path:
+Download [[metric model](https://drive.google.com/open?id=1o-btxlWWA6GlbwMGCGkzn2vAw9qv8D2z)] [[ATOM model](https://drive.google.com/open?id=1VNyr-Ds0khjM0zaq6lU-xfY74-iWxBvU)] and put in the following path:
 
 ```
 utils/metric_net/metric_model/metric_model.pt
@@ -38,13 +38,7 @@ ATOM_MU/pytracking/networks/atom_default.pth
 ```
 5. Run the demo script to test the tracker:
 ```
-cd path/to/DiMP_MU
+cd path/to/ATOM_MU
 source activate DiMP_MU
 python Demo.py
 ```
-<<<<<<< HEAD
-
-=======
->>>>>>> 39ec09e14eb2ad96b4356830fd6108b70a808f6c
-
-
