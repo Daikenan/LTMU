@@ -8,7 +8,7 @@ Our Meta-updater can be easily embedded into other online-update algorithms(Dimp
 ### [DiMP](https://github.com/visionml/pytracking)
 | Tracker            | LaSOT(AUC)    | VOT2020 LT(F) | VOT2018 LT(F) | TLP(AUC) |
 |:-----------   |:----------------:|:----------------:|:----------------:|:----------------:|
-| RT-MDNet   [[code](https://github.com/IlchaeJung/RT-MDNet)]| 0.335               |0.338             |0.367             |0.276             |
+| [RT-MDNet]   (https://github.com/IlchaeJung/RT-MDNet)| 0.335               |0.338             |0.367             |0.276             |
 | RT-MDNet+MU| 0.354               |0.396             |0.407             |0.337             |
 | ATOM       [code](https://github.com/visionml/pytracking)| 0.511               |0.497             |0.510             |0.399             |
 | ATOM+MU    | 0.541               |0.620             |0.628             |0.473             |
