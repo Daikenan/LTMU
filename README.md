@@ -6,10 +6,9 @@
 ## Introduction 
 Our Meta-updater can be easily embedded into other online-update algorithms(Dimp, ATOM, ECO, RT-MDNet...) to make their online-update more accurately in long-term tracking task. [More info](https://zhuanlan.zhihu.com/p/130322874).
 ### [DiMP](https://github.com/visionml/pytracking)
-| LaSOT            | Success Score    | Precision Score |
-|:-----------   |:----------------:|:----------------:|
-| Dimp50       | 0.568            |      -       |
-| Dimp50+MU(k=1)       | 0.594            |      -       |
+| Tracker            | LaSOT(AUC)    | VOT2020 LT | VOT2018 LT | TLP |
+|:-----------   |:----------------:|:----------------:|:----------------:|:----------------:|
+| DiMP       | 0.568               |0.641             |0.649             |0.564             |
 
 | TLP            | Success Score    | Precision Score |
 |:-----------   |:----------------:|:----------------:|
