@@ -18,6 +18,12 @@ Our Meta-updater can be easily embedded into other online-update algorithms(Dimp
 | PrDiMP+MU  | 0.615               |0.661             |0.675             |0.582             |
 | SuperDiMP  | 0.646               |0.647             |0.667             |0.552             |
 | SuperDiMP+MU| 0.658               |0.704             |0.707             |0.595             |
+| D3S        | -                   |-                 |-                 |-                 |
+| D3S+MU     | -                   |-                 |-                 |-                 |
+| ECO        | -                   |-                 |-                 |-                 |
+| ECO+MU     | -                   |-                 |-                 |-                 |
+| MDNet        | -                   |-                 |-                 |-                 |
+| MDNet+MU     | -                   |-                 |-                 |-                 |
 
 
 | TLP            | Success Score    | Precision Score |
