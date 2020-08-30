@@ -14,16 +14,16 @@ Our Meta-updater can be easily embedded into other online-update algorithms(Dimp
 | [**ATOM+MU**](https://github.com/Daikenan/LTMU/tree/master/ATOM_MU)    | 0.541               |0.620             |0.628             |0.473             |
 | [**DiMP**](https://github.com/visionml/pytracking)| 0.568               |0.573             |0.587             |0.514             |
 | [**DiMP+MU**](https://github.com/Daikenan/LTMU/tree/master/DiMP_MU)    | 0.594               |0.641             |0.649             |0.564             |
-| **[PrDiMP**](https://github.com/visionml/pytracking)| 0.612               |0.632             |0.631             |0.535             |
+| [**PrDiMP**](https://github.com/visionml/pytracking)| 0.612               |0.632             |0.631             |0.535             |
 | **PrDiMP+MU**  | 0.615               |0.661             |0.675             |0.582             |
 | [**SuperDiMP**](https://github.com/visionml/pytracking)| 0.646               |0.647             |0.667             |0.552             |
-| **SuperDiMP+MU| 0.658               |0.704             |0.707             |0.595             |
-| [D3S](https://github.com/alanlukezic/d3s)        | -                   |-                 |-                 |-                 |
-| D3S+MU     | -                   |-                 |-                 |-                 |
-| [ECO](https://github.com/visionml/pytracking)        | -                   |-                 |-                 |-                 |
-| ECO+MU     | -                   |-                 |-                 |-                 |
-| [MDNet](https://github.com/hyeonseobnam/py-MDNet)        | -                   |-                 |-                 |-                 |
-| MDNet+MU     | -                   |-                 |-                 |-                 |
+| **SuperDiMP+MU**| 0.658               |0.704             |0.707             |0.595             |
+| [**D3S**](https://github.com/alanlukezic/d3s)        | -                   |-                 |-                 |-                 |
+| **D3S+MU**     | -                   |-                 |-                 |-                 |
+| [**ECO**](https://github.com/visionml/pytracking)        | -                   |-                 |-                 |-                 |
+| **ECO+MU**     | -                   |-                 |-                 |-                 |
+| [**MDNet**](https://github.com/hyeonseobnam/py-MDNet)        | -                   |-                 |-                 |-                 |
+| **MDNet+MU**     | -                   |-                 |-                 |-                 |
 
 ## Paper link
 - [Google Drive](https://drive.google.com/open?id=14CGBaVl8sNIYRi0tQ5E_wsjpHiINu9Jk)
