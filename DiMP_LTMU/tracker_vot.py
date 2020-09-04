@@ -532,7 +532,7 @@ class Dimp_LTMU_Tracker(object):
         if self.p.visualization:
             show_res(cv2.cvtColor(image, cv2.COLOR_RGB2BGR), np.array(self.last_gt, dtype=np.int32), '2',
                      update=update, can_bboxes=candidate_bboxes,
-                     frame_id=self.i, score=md_score, mask=mask)
+                     frame_id=self.i, tracker_score=md_score, mask=mask)
 
         return vot.Rectangle(float(self.last_gt[1]), float(self.last_gt[0]), float(width),
                 float(height)), confidence_score
