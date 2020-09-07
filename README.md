@@ -19,9 +19,9 @@ Our Meta-updater can be easily embedded into other online-update algorithms(Dimp
 | [**DiMP+MU**](https://github.com/Daikenan/LTMU/tree/master/DiMP_MU)    | 0.594               |0.641             |0.649             |0.564             |Paper/Code/Results|
 | [**DiMP+LTMU**](https://github.com/Daikenan/LTMU/tree/master/DiMP_LTMU)    | 0.602               |0.691             |-             |0.572             |Paper/Code/Results|
 | [**PrDiMP**](https://github.com/visionml/pytracking)| 0.612               |0.632             |0.631             |0.535             |Paper/Code/Results|
-| **PrDiMP+MU**  | 0.615               |0.661             |0.675             |0.582             |Paper/Code/Results|
+| [**PrDiMP+MU**](https://github.com/Daikenan/LTMU/tree/master/PrDiMP_MU)  | 0.615               |0.661             |0.675             |0.582             |Paper/Code/Results|
 | [**SuperDiMP**](https://github.com/visionml/pytracking)| 0.646               |0.647             |0.667             |0.552             |Paper/Code/Results|
-| **SuperDiMP+MU**| 0.658               |0.704             |0.707             |0.595             |Paper/Code/Results|
+| [**SuperDiMP+MU**](https://github.com/Daikenan/LTMU/tree/master/Super_DiMP_MU)| 0.658               |0.704             |0.707             |0.595             |Paper/Code/Results|
 | [**D3S**](https://github.com/alanlukezic/d3s)        | -                   |-                 |-                 |-                 |Paper/Code/Results|
 | **D3S+MU**     | -                   |-                 |-                 |-                 |Paper/Code/Results|
 | [**ECO**](https://github.com/visionml/pytracking)        | -                   |-                 |-                 |-                 |Paper/Code/Results|
