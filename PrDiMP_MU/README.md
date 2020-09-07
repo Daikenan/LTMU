@@ -13,15 +13,19 @@ This is a python-implemented visual object tracking algorithm.
 
 ## Install Requirements & 
 To install all the dependencies, you can run:
+
 `
 source create -n DiMP_MU python=3.7
 `
+
 `
 source activate DiMP_MU
 `
+
 `
-cd path/to/DiMP_MU
+cd path/to/PrDiMP_MU
 `
+
 `
 pip install -r requirements.txt
 `
