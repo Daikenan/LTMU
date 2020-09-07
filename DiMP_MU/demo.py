@@ -5,7 +5,6 @@ os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 # test DiMPMU
 p = p_config()
 p.tracker = 'Dimp_MU'
-p.model_dir = 'dimp_mu_1'
 p.save_results = False
 p.name = p.tracker + '_' + p.model_dir
 eval_tracking('demo', p=p, mode='test')

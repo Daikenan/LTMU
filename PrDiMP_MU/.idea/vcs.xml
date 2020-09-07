@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/RT_MDNet" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/SiamMask" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/pytracking" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/pytracking/ltr/external/PreciseRoIPooling" vcs="Git" />
+  </component>
+</project>

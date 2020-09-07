@@ -145,6 +145,7 @@ class Dimp_LTMU_Tracker(object):
         return score, mask
 
     def Golbal_Track_init(self, image, init_box):
+        init_box = [init_box[0], init_box[1], init_box[0]+init_box[2], init_box[1]+init_box[3]]
         cfg_file = 'Global_Track/configs/qg_rcnn_r50_fpn.py'
         ckp_file = 'Global_Track/checkpoints/qg_rcnn_r50_fpn_coco_got10k_lasot.pth'
         transforms = data.BasicPairTransforms(train=False)
@@ -522,7 +523,7 @@ class Dimp_LTMU_Tracker(object):
         if self.p.visualization:
             show_res(cv2.cvtColor(image, cv2.COLOR_RGB2BGR), np.array(self.last_gt, dtype=np.int32), '2',
                      groundtruth=self.groundtruth, update=update_score, can_bboxes=candidate_bboxes,
-                     frame_id=self.i, tracker_score=md_score, mask=mask)
+                     frame_id=self.i, score=md_score, mask=mask)
 
         return [float(self.last_gt[1]), float(self.last_gt[0]), float(width),
                 float(height)], self.score_map, 0, confidence_score, 0

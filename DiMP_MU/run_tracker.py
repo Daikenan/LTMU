@@ -114,7 +114,7 @@ def run_seq_list(Dataset, p, sequence_list, data_dir):
             result_save_path = os.path.join(base_save_path, 'train_data', video + '.txt')
             if os.path.exists(result_save_path):
                 continue
-        if p.save_training_data:
+        if p.save_results:
             result_save_path = os.path.join(base_save_path, 'eval_results', video + '.txt')
             if os.path.exists(result_save_path):
                 continue
