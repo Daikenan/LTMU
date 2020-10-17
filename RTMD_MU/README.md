@@ -11,28 +11,31 @@ This is a python-implemented visual object tracking algorithm.
 * ubuntu 16.04
 * cuda-9.0
 
-## Install Requirements & Download models
-To install all the dependencies, you can run the script `install.sh`. 
-Usage example:
-``
-bash install.sh ~/anaconda3 votenvs
-``
-The first parameter `~/anaconda3` indicates the path of anaconda and the second indicates the virtual environment used for this project. 
+## Installation
+1. Clone the GIT repository:
+```
+ $ git clone https://github.com/Daikenan/LTMU.git
+```
+2. Clone the submodules.  
+   In the repository directory, run the commands:
+```
+   $ git submodule init  
+   $ git submodule update
+```
+3. Run the install script. 
+```
+conda env create -f LTDSE.yaml
+bash compile.sh
+```
+4.Download models
+Download [[metric model](https://drive.google.com/open?id=1o-btxlWWA6GlbwMGCGkzn2vAw9qv8D2z)]
+the following path:
 
-## Modify the Paths
-* `local_path.py`
-
-# Integrate into VOT-2019LT
-
-## VOT-toolkit
-Before running the toolkit, please change the environment path to use the python in the conda environment "votenvs".
-For example, in my computer, I add  `export PATH=/home/daikenan/anaconda3/envs/votenvs/bin:$PATH` to the `~/.bashrc` file.  
-
-The interface for integrating the tracker into the vot evaluation tool kit is implemented in the module `tracker_vot.py`. The script `tracker_LT_DSE.m` is needed to be copied to vot-tookit. 
-
-Since the vot-toolkit may be not compatible with pytorch-0.4.1, I always change the line  `command = sprintf('%s %s -c "%s"', python_executable, argument_string, python_script);` to `command = sprintf('env -i %s %s -c "%s"', python_executable, argument_string, python_script);` in `generate_python_command.m`. 
-
-
-# CPU manner
-
-If you want to run this code on CPU, you need just set `os.environ["CUDA_VISIBLE_DEVICES"]=""` in the begin of `tracker_vot.py`. 
+```
+ LTMU/utils/metric_net/metric_model/metric_model.pt
+ ```
+ 5. Run the demo script to test the tracker:
+```
+cd path/to/RTMD_MU
+source activate LTDSE
+python Demo.py
