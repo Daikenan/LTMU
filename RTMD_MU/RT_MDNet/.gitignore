@@ -1,0 +1,6 @@
+models/
+*.pth
+*.npy
+*.tar
+*.pkl
+
