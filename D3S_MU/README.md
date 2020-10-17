@@ -27,7 +27,7 @@ This is a python-implemented visual object tracking algorithm.Use meta-updater t
 bash install.sh PATH/TO/YOUR/anaconda3 D3S_MU
 ```
 4.Download models
-Download [[metric model](https://drive.google.com/open?id=1o-btxlWWA6GlbwMGCGkzn2vAw9qv8D2z)] [[DiMP50 model](http://data.vicos.si/alanl/d3s/SegmNet.pth.tar)]and put in the following path:
+Download [[metric model](https://drive.google.com/open?id=1o-btxlWWA6GlbwMGCGkzn2vAw9qv8D2z)] [[D3S model](http://data.vicos.si/alanl/d3s/SegmNet.pth.tar)]and put in the following path:
 
 ```
  utils/metric_net/metric_model/metric_model.pt
