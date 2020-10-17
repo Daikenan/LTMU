@@ -32,7 +32,7 @@ Download [[metric model](https://drive.google.com/open?id=1o-btxlWWA6GlbwMGCGkzn
 the following path:
 
 ```
- LTMU/utils/metric_net/metric_model/metric_model.pt
+ utils/metric_net/metric_model/metric_model.pt
  ```
  5. Run the demo script to test the tracker:
 ```
