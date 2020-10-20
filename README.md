@@ -23,7 +23,7 @@ Our Meta-updater can be easily embedded into other online-update algorithms(Dimp
 | [**SuperDiMP**](https://github.com/visionml/pytracking)| 0.646               |0.647             |0.667             |0.552             |Paper/Code/Results|
 | [**SuperDiMP+MU**](https://github.com/Daikenan/LTMU/tree/master/Super_DiMP_MU)| 0.658               |0.704             |0.707             |0.595             |Paper/Code/Results|
 | [**D3S**](https://github.com/alanlukezic/d3s)        |     0.520               |0.437                 |0.445                 |0.390                 |Paper/Code/Results|
-| **D3S+MU**     |       0.494             |0.518                 |534                 |0.413                 |Paper/Code/Results|
+| **D3S+MU**     |       0.494             |0.518                 |0.534                 |0.413                 |Paper/Code/Results|
 | [**ECO**](https://github.com/visionml/pytracking)        | -                   |-                 |-                 |-                 |Paper/Code/Results|
 | **ECO+MU**     | -                   |-                 |-                 |-                 |Paper/Code/Results|
 | [**MDNet**](https://github.com/hyeonseobnam/py-MDNet)        | -                   |-                 |-                 |-                 |Paper/Code/Results|
