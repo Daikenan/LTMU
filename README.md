@@ -33,7 +33,7 @@ Our Meta-updater can be easily embedded into other online-update algorithms(Dimp
 - [Google Drive](https://drive.google.com/open?id=14CGBaVl8sNIYRi0tQ5E_wsjpHiINu9Jk)
 - [Baidu Yun](https://pan.baidu.com/s/1jhPOdYoNRVD30Mr5okkv2g)   提取码：kexg
 ## Citation
-Please cite the above publication if you use the code or compare with the ASRCF tracker in your work. Bibtex entry:
+Please cite the above publication if you use the code or compare with the LTMU tracker in your work. Bibtex entry:
 ```
 @inproceedings{Dai_2020_CVPR,
 author = {Kenan Dai, Yunhua Zhang, Dong Wang, Jianhua Li, Huchuan Lu, Xiaoyun Yang},
