@@ -34,5 +34,6 @@ https://drive.google.com/open?id=1o-btxlWWA6GlbwMGCGkzn2vAw9qv8D2z
 
  `utils/metric_net/metric_model/metric_model.pt`
 
-
+# Training tutorial
+Refer to [ATOM_MU](https://github.com/Daikenan/LTMU/tree/master/ATOM_MU).
 
