@@ -42,3 +42,5 @@ cd path/to/DiMP_MU
 source activate DiMP_MU
 python Demo.py
 ```
+# Training tutorial
+Refer to [ATOM_MU](https://github.com/Daikenan/LTMU/tree/master/ATOM_MU).
