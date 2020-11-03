@@ -39,3 +39,7 @@ the following path:
 cd path/to/RTMD_MU
 source activate LTDSE
 python Demo.py
+```
+
+# Training tutorial
+Refer to [ATOM_MU](https://github.com/Daikenan/LTMU/tree/master/ATOM_MU).
