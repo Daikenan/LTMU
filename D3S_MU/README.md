@@ -39,3 +39,5 @@ cd path/to/D3S_MU
 source activate D3S_MU
 python Demo.py
 ```
+# Training tutorial
+Refer to [ATOM_MU](https://github.com/Daikenan/LTMU/tree/master/ATOM_MU).
