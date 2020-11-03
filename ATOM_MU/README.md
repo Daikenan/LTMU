@@ -42,3 +42,72 @@ cd path/to/ATOM_MU
 source activate DiMP_MU
 python Demo.py
 ```
+
+# Training tutorial
+1. Run original tracker and record all results(bbox, response map,...) on LaSOT dateset to get first round training data of meta-updater.You can modify test_tracker.py like this:
+```
+import os
+from run_tracker import eval_tracking, p_config
+os.environ["CUDA_VISIBLE_DEVICES"] = "0"
+p = p_config()
+p.save_training_data = True
+p.tracker = 'ATOM'
+p.name = 'atom_test'
+eval_tracking('lasot', p=p, mode='all')
+```
+2. In `meta_updater/tcopt.py`, modify `tcopts['lstm_train_dir']` and `tcopts['train_data_dir']` like this:
+```
+tcopts['lstm_train_dir'] = './atom_mu_test_1'
+tcopts['train_data_dir'] = '../results/atom_test/lasot/train_data'
+```
+`tcopts['train_data_dir']` is dir of the training data and `tcopts['lstm_train_dir']` is the save path of training models.
+3. Run `meta_updater/train_meta_updater` to train meta-updater.After training, you can evaluate your own meta-updater by modifying `test_tracker.py` like this:
+```
+import os
+from run_tracker import eval_tracking, p_config
+os.environ["CUDA_VISIBLE_DEVICES"] = "0"
+p = p_config()
+p.save_training_data = True
+p.tracker = 'ATOM_MU'
+p.name = 'atom_mu_test_1'
+eval_tracking('lasot', p=p, mode='test')
+p.save_training_data = False
+eval_tracking('tlp', p=p)
+eval_tracking('votlt19', p=p)
+```
+And then run `evaluate.results.py` to evaluate results.
+
+For most trackers, one round of training can achieve a significant performance improvement. If you want to get better performance, you can try multiple rounds of training like this:
+4. Run tracker with meta-updater and record all results(bbox, response map,...) on LaSOT dateset to get first round training data of meta-updater.You can modify test_tracker.py like this:
+```
+import os
+from run_tracker import eval_tracking, p_config
+os.environ["CUDA_VISIBLE_DEVICES"] = "0"
+p = p_config()
+p.save_training_data = True
+p.tracker = 'ATOM_MU'
+p.name = 'atom_mu_test_1'
+eval_tracking('lasot', p=p, mode='all')
+```
+5. In `meta_updater/tcopt.py`, modify `tcopts['lstm_train_dir']` and `tcopts['train_data_dir']` like this:
+```
+tcopts['lstm_train_dir'] = './atom_mu_test_2'
+tcopts['train_data_dir'] = '../results/'atom_mu_test_1'/lasot/train_data'
+```
+`tcopts['train_data_dir']` is dir of the training data and `tcopts['lstm_train_dir']` is the save path of training models.
+6. Run `meta_updater/train_meta_updater` to train meta-updater.After training, you can evaluate your own meta-updater by modifying `test_tracker.py` like this:
+```
+import os
+from run_tracker import eval_tracking, p_config
+os.environ["CUDA_VISIBLE_DEVICES"] = "0"
+p = p_config()
+p.save_training_data = True
+p.tracker = 'ATOM_MU'
+p.name = 'atom_mu_test_2'
+eval_tracking('lasot', p=p, mode='test')
+p.save_training_data = False
+eval_tracking('tlp', p=p)
+eval_tracking('votlt19', p=p)
+```
+And then run `evaluate.results.py` to evaluate results. 
+Modify the corresponding `p.name`,`tcopts['lstm_train_dir']`,`tcopts['train_data_dir']` and repeat 4-6;
