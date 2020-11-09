@@ -79,7 +79,7 @@ eval_tracking('votlt19', p=p)
 ```
 And then run `evaluate.results.py` to evaluate results.
 
-For most trackers, one round of training can achieve a significant performance improvement. If you want to get better performance, you can try multiple rounds of training like this:
+For most trackers, one stage of training can achieve a significant performance improvement. If you want to get better performance, you can try multiple stages of training like this:
 
 4. Run tracker with meta-updater and record all results(bbox, response map,...) on LaSOT dateset to get first round training data of meta-updater.You can modify test_tracker.py like this:
 ```
