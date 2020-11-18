@@ -17,7 +17,7 @@ Our Meta-updater can be easily embedded into other online-update algorithms(Dimp
 | [**ATOM+MU**](https://github.com/Daikenan/LTMU/tree/master/ATOM_MU)    | 0.541               |0.620             |0.628             |0.473             |Paper/Code/Results|
 | [**DiMP**](https://github.com/visionml/pytracking)| 0.578               |0.573             |0.587             |0.514             |Paper/Code/Results|
 | [**DiMP+MU**](https://github.com/Daikenan/LTMU/tree/master/DiMP_MU)    | 0.602               |0.641             |0.649             |0.564             |Paper/Code/Results|
-| [**DiMP+LTMU**](https://github.com/Daikenan/LTMU/tree/master/DiMP_LTMU)    | 0.602               |0.691             |-             |0.572             |Paper/Code/Results|
+| [**DiMP+LTMU**](https://github.com/Daikenan/LTMU/tree/master/DiMP_LTMU)    | 0.605               |0.691             |-             |0.572             |Paper/Code/Results|
 | [**PrDiMP**](https://github.com/visionml/pytracking)| 0.612               |0.632             |0.631             |0.535             |Paper/Code/Results|
 | [**PrDiMP+MU**](https://github.com/Daikenan/LTMU/tree/master/PrDiMP_MU)  | 0.615               |0.661             |0.675             |0.582             |Paper/Code/Results|
 | [**SuperDiMP**](https://github.com/visionml/pytracking)| 0.646               |0.647             |0.667             |0.552             |Paper/Code/Results|
