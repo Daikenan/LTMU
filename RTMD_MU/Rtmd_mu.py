@@ -34,7 +34,7 @@ from RT_MDNet.tracker import set_optimizer, rt_train
 
 from PIL import Image
 Image.MAX_IMAGE_PIXELS = 1000000000
-from sample_generator import *
+from rt_sample_generator import *
 from tracking_utils import *
 
 

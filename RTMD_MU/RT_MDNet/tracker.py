@@ -13,7 +13,7 @@ from torch.autograd import Variable
 from random import randint
 from local_path import base_path
 sys.path.insert(0,os.path.join(base_path, 'RT_MDNet/modules'))
-from sample_generator import *
+from rt_sample_generator import *
 from data_prov import *
 # from model import *
 from bbreg import *

@@ -11,7 +11,7 @@ import torch.utils.data as data
 
 # import matplotlib.patches as patches
 import os
-from sample_generator import *
+from rt_sample_generator import *
 from pretrain_options import *
 from img_cropper import *
 
