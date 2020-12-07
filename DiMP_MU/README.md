@@ -3,7 +3,7 @@ If you failed to install and run this tracker, please email me (<dkn2014@mail.dl
 
 # Introduction
 
-This is a python-implemented visual object tracking algorithm.Use meta-updater to control the update of Dimp.
+This is a python-implemented visual object tracking algorithm. Use meta-updater to control the update of DiMP.
 
 # Prerequisites
 
