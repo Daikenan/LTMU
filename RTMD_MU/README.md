@@ -25,7 +25,6 @@ This is a python-implemented visual object tracking algorithm.
 3. Run the install script. 
 ```
 conda env create -f LTDSE.yaml
-bash compile.sh
 ```
 4.Download models
 Download [[metric model](https://drive.google.com/open?id=1o-btxlWWA6GlbwMGCGkzn2vAw9qv8D2z)]
