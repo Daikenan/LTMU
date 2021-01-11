@@ -77,14 +77,12 @@ update soon
   pages={1328--1338},
   year={2019}
 }
-[3]@inproceedings{Danelljan-ICCV19-DIMP,
-  author    = {Goutam Bhat and
-                     Martin Danelljan and
-                     Luc Van Gool and
-                     Radu Timofte},
-  title        = {Learning Discriminative Model Prediction for Tracking},
-  booktitle = {ICCV},
-  year        = {2019},
+[3]@InProceedings{nam2016mdnet,
+author = {Nam, Hyeonseob and Han, Bohyung},
+title = {Learning Multi-Domain Convolutional Neural Networks for Visual Tracking},
+booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+month = {June},
+year = {2016}
 }
 [4]@inproceedings{Dai_2020_CVPR,
 author = {Kenan Dai, Yunhua Zhang, Dong Wang, Jianhua Li, Huchuan Lu, Xiaoyun Yang},
