@@ -1,0 +1,7 @@
+[submodule "PrDiMP_MU/ltr/external/PreciseRoIPooling"] 
+  path = PrDiMP_MU/ltr/external/PreciseRoIPooling 
+  url = https://github.com/vacancy/PreciseRoIPooling
+
+[submodule "Super_DiMP_MU/ltr/external/PreciseRoIPooling"] 
+  path = Super_DiMP_MU/ltr/external/PreciseRoIPooling 
+  url = https://github.com/vacancy/PreciseRoIPooling
