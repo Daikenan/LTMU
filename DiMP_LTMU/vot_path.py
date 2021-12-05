@@ -1,2 +1,3 @@
 # code path
-base_path = '/media/dkn/Data2/LTMU'
+import os
+base_path = os.path.dirname(os.path.realpath(__file__))
