@@ -79,7 +79,7 @@ torchfile==0.1.0
 torchvision==0.5.0+cu100
 tornado==6.0.3
 tqdm==4.32.0
-urllib3==1.25.9
+urllib3==1.26.5
 visdom==0.1.8.9
 vot-trax==3.0.2
 webencodings==0.5.1
