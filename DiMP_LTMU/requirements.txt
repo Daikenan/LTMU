@@ -23,7 +23,7 @@ imagecorruptions==1.0.0
 imageio==2.8.0
 imgaug==0.2.6
 importlib-metadata==1.6.0
-joblib==0.14.1
+joblib==1.2.0
 jpeg4py==0.1.4
 jsonpatch==1.25
 jsonpointer==2.0
